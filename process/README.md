@@ -1,4 +1,4 @@
-regularly# What's my process as a Data Scientist?
+# What's my process as a Data Scientist?
 
 These are just some random thoughts about how I organize my day-to-day activities as a Data Scientist.
 
@@ -21,7 +21,7 @@ as well as finding miscellaneous notes in the future.
 
 There is a file `[MM].sql` in every monthly directory. 
 Random POC or queries always need to be run and they are all stored here. 
-Once again, this allows for easy lookup in the future..
+Once again, this allows for easy lookup in the future.
 
 ## Review Tracking `~/Archive/[YYYY]/review_tracking.txt`
 This follows a structure like the following,
@@ -53,3 +53,14 @@ Anything that I need to push management on regularly gets a reminder.
 
 Anything that needs to be monitored (like a running Ec2 instance) gets a reminder. Sometimes for months in the future.
 
+# When I write SQL...
+Ok, I come up with a query that pulls some data. I always ask my self,
+
+* Is this a one-off?
+  * Store it into monthly.sql file for easy lookup later
+  * This is the default behavior with any SQL written.
+* Is this project specific?
+  * Store it into the repository where this code is stored.
+  * Sometimes this helps with debugging in the future, and sometimes it's just documentation.
+* Is this a generic dataset that could be used by other teams?
+  * Great! Write a confluence page and make sure everyone is aware of its' existence.
